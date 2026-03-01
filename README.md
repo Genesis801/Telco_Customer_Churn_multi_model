@@ -42,9 +42,9 @@ The workflow includes:
 * Electronic check users churn more
 * Lack of Tech Support & Online Security increases churn
 
-📌 INSERT IMAGE HERE: ![alt text](image.png)
-📌 INSERT IMAGE HERE: ![alt text](image-1.png)
-📌 INSERT IMAGE HERE: ![alt text](image-2.png)
+📌![alt text](image.png)
+📌![alt text](image-1.png)
+📌![alt text](image-2.png)
 
 ---
 
@@ -70,8 +70,14 @@ Evaluation metrics:
 
 Baseline ROC-AUC: ~0.83–0.85
 
-📌 INSERT IMAGE HERE: `confusion_matrix.png`
-📌 INSERT IMAGE HERE: `roc_curve.png`
+              precision    recall  f1-score   support
+
+           0       0.84      0.90      0.87      1035
+           1       0.67      0.53      0.59       374
+
+    accuracy                           0.81      1409
+   macro avg       0.76      0.72      0.73      1409
+weighted avg       0.80      0.81      0.80      1409
 
 ---
 
